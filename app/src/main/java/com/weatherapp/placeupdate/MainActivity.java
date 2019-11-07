@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         textViewLongitude.setText("Longitude:" + location.getLongitude());
         textViewLatitude.setText("Latitude:" + location.getLatitude());
 
-        String url = "http://10.10.99.79:5000/api/locations";
+        String url = "http://10.10.99.103:5000/api/locations";
 
         MyRequestQueue = Volley.newRequestQueue(getApplicationContext());
 
